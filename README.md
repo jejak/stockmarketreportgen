@@ -1,6 +1,6 @@
 # Stock Market Report Generator
 
-This is a proto software to demonstrate how stock market reports can be generated in a banking environment taking the market data from the internet from an other banking subsidiary.
+This is a proto-software to demonstrate how stock market reports can be generated in a banking environment taking the market data from the internet from an other banking subsidiary.
 
 The program does the following:
 
