@@ -28,8 +28,8 @@ For example:
 ````````````````````
 
   The project also provides:
-     - unit tests and
-     - documentation
+* unit tests and
+* documentation
 
 ## Design
 
