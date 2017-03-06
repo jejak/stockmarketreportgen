@@ -48,7 +48,8 @@ Call Follow
 - create json from the report via json.dumps()
 - output the json to standard via print()
 
-Note: any incomplete market data item which cannot supply a fully completed report item (i.e cannot complete all of the reporting fields from it - are excluded from the report
+Note: 
+* Any incomplete market data item - which cannot supply all the attributes required for a report item - are excluded from the report.
 
 Unit test
 - used python unittest
