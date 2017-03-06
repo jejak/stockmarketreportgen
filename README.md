@@ -74,9 +74,9 @@ To build the program run the following commands.
 > python setup.py install
 ````````````````````
 
-## To run the Market Data program
+## To run the Stock Market Report Generator
 
-### Do the build step
+### Execute the build step
 
 Do the above build step
 
@@ -93,7 +93,7 @@ Commands
 > stockmarketreportgen <url-of-the-marketdata.json>
 ````````````````````````
 
-## To Run the unit tests
+## To run the unit tests
 
 ````````````````````````
 > cd Code
