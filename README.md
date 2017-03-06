@@ -2,15 +2,17 @@
 
 This is a proto-software to demonstrate how stock market reports can be generated in a banking environment taking the market data from the internet from an other banking subsidiary.
 
-The program does the following:
+The program provides the following functionality:
 
    * Fetch the JSON stock market data from marketdata.json via a HTTP request
    * Print a list of stock tickers, the ISIN (the id field in the marketdata.json) and their price in JSON format (see below).
 
-For example:
+Example run
+````````````````````
+> stockmarketreportgen http://ws.jenojakab.com/files/marketdata001.json
+````````````````````
 
-* > stockmarketreportgen http://ws.jenojakab.com/files/marketdata001.json
-
+Example output
 ````````````````````
 [
  {
