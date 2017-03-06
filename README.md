@@ -93,7 +93,7 @@ Commands
 > stockmarketreportgen <url-of-the-marketdata.json>
 ````````````````````````
 
-## To Run the unit test
+## To Run the unit tests
 
 ````````````````````````
 > cd Code
