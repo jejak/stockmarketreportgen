@@ -48,10 +48,10 @@ Call Follow
 - create json from the report via json.dumps()
 - output the json to standard via print()
 
-Note: 
+Note
 * Any incomplete market data item - which cannot supply all the attributes required for a report item - are excluded from the report.
 
-Unit test
+Unit tests
 - used python unittest
 - created one test case
 - it is using the task described reference url to get test data  http://ws.jenojakab.com/files/marketdata001.json
@@ -85,7 +85,7 @@ Options:
 --help        This help"
 ````````````````````````
 
-Commands:
+Commands
 ````````````````````````
 > cd Code
 > stockmarketreportgen <url-of-the-marketdata.json>
