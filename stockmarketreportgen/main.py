@@ -62,7 +62,7 @@ Print a list of stock tickers, the ISIN (the id field in the marketdata.json) an
     # Print Usage
     print("""
 Usage: marketreport <url-of-marketdata-json>
-       marketreport http://alert-generation-question.rockall-laser.com/ffc9c8e9-f929-46db-ac5c-7c483c647568/marketdata.json
+       marketreport http://ws.jenojakab.com/files/marketdata001.json
 
 Options:
     --help        Prints this help
