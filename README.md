@@ -9,26 +9,26 @@ The program does the following:
 
 For example:
 
-* $ ./stockmarketreportgen http://ws.jenojakab.com/files/marketdata001.json
+* > stockmarketreportgen http://ws.jenojakab.com/files/marketdata001.json
 
 ````````````````````
 [
  {
-   "ticker": "ABC",
-   "price": 10.50,
-   "isin": "US1234567890"
+   "ticker": "CBA",
+   "price": 21.51,
+   "isin": "US92345678901"
  },
  {
-   "ticker": "BBB",
-   "price": 400.0,
-   "isin": "US0987654321"
+   "ticker": "CBB",
+   "price": 401.5,
+   "isin": "US10987694321"
  },
  ...
 ]
 ````````````````````
 
-  The project also contains:
-     * unit test and
+  The project also provides:
+     * unit tests and
      * documentation
 
 ## Design
@@ -58,7 +58,7 @@ Unit test
 
 ## Notation
 
-*The folder where the git project has been cloned will be referred as **Code** from now*.
+The folder where the git project has been cloned will be referred as **Code** from now.
 
 ## To build the program
 
@@ -67,8 +67,8 @@ Unit test
 To build the program run the following commands.
 
 ````````````````````
-cd Code
-python setup.py install
+> cd Code
+> python setup.py install
 ````````````````````
 
 ## To run the Market Data program
@@ -86,15 +86,15 @@ Options:
 
 Commands:
 ````````````````````````
-cd Code
-stockmarketreportgen <url-of-the-marketdata.json>
+> cd Code
+> stockmarketreportgen <url-of-the-marketdata.json>
 ````````````````````````
 
 ## To Run the unit test
 
 ````````````````````````
-cd Code
-python -m unittest tests/test_stockmarketreportgen.py
+> cd Code
+> python -m unittest tests/test_stockmarketreportgen.py
 ````````````````````````
 
 The test results would genereted on the console.
